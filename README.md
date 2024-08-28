@@ -11,7 +11,7 @@ La deflexión $y$ de la punta de un mástil en un bote de vela está dada  por l
 
  $$\displaystyle y=\frac{FL^4 }{8EI}\,\,$$  
  
-                        ![barco](https://github.com/user-attachments/assets/917c413a-9c1c-433e-a29f-cc721ea8e5c7)
+![barco](https://github.com/user-attachments/assets/917c413a-9c1c-433e-a29f-cc721ea8e5c7)
   
 donde: 
 
