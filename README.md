@@ -72,6 +72,8 @@ Con lo que el error en $q$ se puede aproximar como:
 
 En nuestro caso, $y=\frac{FL^4 }{8EI}$ , donde las variables $F$ , $L$ , $E$ , e $I$ son independientes, y podemos calcular el error en la deflexión $y$ utilizando esta aproximación. 
 
+[Calculadora para Propagación de Errores](https://errorpropagation.com/)
+
 # Preguntas 
 
 1.   **Calcular la deflexión:** Implementa una función en Matlab que reciba los valores de $F$ , $L$ , $E$ , e $I$ y calcule la deflexión $y$ usando la fórmula dada.
