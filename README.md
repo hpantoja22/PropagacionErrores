@@ -52,7 +52,7 @@ Si las incertidumbres en $x_1$ y $x_2$ son independientes y aleatorias, entonces
 
 $$\xi_q=\sqrt{\left(\frac{\partial q}{\partial x_1} \Delta \tilde{x}_1\right)^2+\cdots+\left(\frac{\partial q}{\partial x_2} \Delta \tilde{x}_2\right)^2}$$
 
-(llamada error **Error Cuadrático**).
+(llamada  **Error Cuadrático**).
 
 En cualquier caso, nunca es mayor que la suma ordinaria
 
