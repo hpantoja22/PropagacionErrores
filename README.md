@@ -49,9 +49,11 @@ El objetivo de esta actividad es calcular la deflexión de la punta de un  mást
 La propagación de errores se puede generalizar a funciones que sean  dependientes de más de una variable independiente. Sea una función  $q=f(x_1 ,x_2 )$  donde las medidas ${\tilde{x} }_1$ y ${\tilde{x} }_2$ tienen  errores $\Delta {\tilde{x} }_1$ y $\Delta {\tilde{x} }_2$ .
 
 Si las incertidumbres en $x_1$ y $x_2$ son independientes y aleatorias, entonces la incertidumbre en $q$ es
+
 $$\epsilon_q=\sqrt{\left(\frac{\partial q}{\partial x_1} \Delta \tilde{x}_1\right)^2+\cdots+\left(\frac{\partial q}{\partial x_2} \Delta \tilde{x}_2\right)^2}$$
 
-Llamada error \textbf{Error Cuadrático}.\\
+Llamada error \textbf{Error Cuadrático}.
+
 En otro caso, nunca es mayor que la suma ordinaria
 $$\epsilon_q=\sqrt{\left(\frac{\partial q}{\partial x_1} \Delta \tilde{x}_1\right)^2+\cdots+\left(\frac{\partial q}{\partial x_2} \Delta \tilde{x}_2\right)^2}$$
 
