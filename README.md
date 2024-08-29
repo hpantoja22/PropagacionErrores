@@ -49,13 +49,12 @@ El objetivo de esta actividad es calcular la deflexión de la punta de un  mást
 La propagación de errores se puede generalizar a funciones que sean  dependientes de más de una variable independiente. Sea una función  $q=f(x_1 ,x_2 )$  donde las medidas ${\tilde{x} }_1$ y ${\tilde{x} }_2$ tienen  errores $\Delta {\tilde{x} }_1$ y $\Delta {\tilde{x} }_2$ .
 
 Si las incertidumbres en $x_1$ y $x_2$ son independientes y aleatorias, entonces la incertidumbre en $q$ es
-$$\epsilon_q=\sqrt{\left(\frac{\partial q}{\partial {x_1} \epsilon_{x_1}\right)^2+\cdots+\left(\frac{\partial q}{\partial {x_2}} \epsilon_{x_2}\right)^2}$$
+$$\epsilon_q=\sqrt{\left(\frac{\partial q}{\partial x_1} \Delta \tilde{x}_1\right)^2+\cdots+\left(\frac{\partial q}{\partial x_2} \Delta \tilde{x}_2\right)^2}$$
 
 Llamada error \textbf{Error Cuadrático}.\\
 En otro caso, nunca es mayor que la suma ordinaria
-$$
-\delta q \leq\left|\frac{\partial q}{\partial {x_1}}\right| \epsilon_{x_1}+\cdots+\left|\frac{\partial q}{\partial x_2}\right| \epsilon_{x_2}
-$$
+$$\epsilon_q=\sqrt{\left(\frac{\partial q}{\partial x_1} \Delta \tilde{x}_1\right)^2+\cdots+\left(\frac{\partial q}{\partial x_2} \Delta \tilde{x}_2\right)^2}$$
+
 Mediante una versión de la serie de Taylor para el caso de varias variables,  podemos aproximar la función como: 
 
  $$ f(x_1 ,x_2 )\approx f({\tilde{x} }_1 ,{\tilde{x} }_2 )+\frac{\partial f}{\partial x_1 }\cdot (x_1 -{\tilde{x} }_1 )+\frac{\partial f}{\partial x_2 }\cdot (x_2 -{\tilde{x} }_2 ) $$ 
