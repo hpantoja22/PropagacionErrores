@@ -50,6 +50,7 @@ La propagación de errores se puede generalizar a funciones que sean  dependient
 
 Si las incertidumbres en $x_1$ y $x_2$ son independientes y aleatorias, entonces la incertidumbre en $q$ es
 $$\epsilon_q=\sqrt{\left(\frac{\partial q}{\partial {x_1} \epsilon_{x_1}\right)^2+\cdots+\left(\frac{\partial q}{\partial {x_2}} \epsilon_{x_2}\right)^2}$$
+
 Llamada error \textbf{Error Cuadrático}.\\
 En otro caso, nunca es mayor que la suma ordinaria
 $$
