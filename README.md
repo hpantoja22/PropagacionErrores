@@ -58,7 +58,7 @@ En cualquier caso, nunca es mayor que la suma ordinaria
 
 $$\xi_q \leq\left|\frac{\partial q}{\partial x_1}\right| \Delta \tilde{x}_1+\cdots+\left|\frac{\partial q}{\partial x_2}\right| \Delta \tilde{x}_2$$
 
-(llamada  *Error Absoluto**).
+(llamada  **Error Absoluto**).
 
 Mediante una versión de la serie de Taylor para el caso de varias variables,  podemos aproximar la función como: 
 
