@@ -50,12 +50,13 @@ La propagación de errores se puede generalizar a funciones que sean  dependient
 
 Si las incertidumbres en $x_1$ y $x_2$ son independientes y aleatorias, entonces la incertidumbre en $q$ es
 
-$$\epsilon_q=\sqrt{\left(\frac{\partial q}{\partial x_1} \Delta \tilde{x}_1\right)^2+\cdots+\left(\frac{\partial q}{\partial x_2} \Delta \tilde{x}_2\right)^2}$$
+$$\xi_q=\sqrt{\left(\frac{\partial q}{\partial x_1} \Delta \tilde{x}_1\right)^2+\cdots+\left(\frac{\partial q}{\partial x_2} \Delta \tilde{x}_2\right)^2}$$
 
-Llamada error \textbf{Error Cuadrático}.
+(llamada error **Error Cuadrático**).
 
-En otro caso, nunca es mayor que la suma ordinaria
-$$\epsilon_q=\sqrt{\left(\frac{\partial q}{\partial x_1} \Delta \tilde{x}_1\right)^2+\cdots+\left(\frac{\partial q}{\partial x_2} \Delta \tilde{x}_2\right)^2}$$
+En cualquier caso, nunca es mayor que la suma ordinaria
+$$\xi_q \leq\left|\frac{\partial q}{\partial x_1}\right| \Delta \tilde{x}_1+\cdots+\left|\frac{\partial q}{\partial x_2}\right| \Delta \tilde{x}_2$$
+(llamada  *Error Absoluto**).
 
 Mediante una versión de la serie de Taylor para el caso de varias variables,  podemos aproximar la función como: 
 
