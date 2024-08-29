@@ -68,7 +68,7 @@ Con lo que el error en $q$ se puede aproximar como:
 
  $$ \xi_q^* =\Delta f({\tilde{x} }_1 ,{\tilde{x} }_2 )\approx \left|\frac{\partial f}{\partial x_1 }\right|\cdot \Delta {\tilde{x} }_1 +\left|\frac{\partial f}{\partial x_2 }\right|\cdot \Delta {\tilde{x} }_2 $$ 
 
- $\xi_q^*$ es una cota del error absoluto $\xi_q^$
+ $\xi_q^*$ es una cota del error absoluto $\xi_q$
 
 En nuestro caso, $y=\frac{FL^4 }{8EI}$ , donde las variables $F$ , $L$ , $E$ , e $I$ son independientes, y podemos calcular el error en la deflexión $y$ utilizando esta aproximación. 
 
